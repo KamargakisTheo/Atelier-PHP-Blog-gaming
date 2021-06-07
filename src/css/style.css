@@ -1,0 +1,115 @@
+/* couleurs générales */
+
+.bg{
+    background-color: #FF0036;
+}
+
+.bgWhite{
+    background-color: #F5F2F2;
+}
+
+header{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img{
+    width: 28%;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #F5F2F2;
+    padding: 2rem 1rem;
+}
+
+header nav ul li:hover,
+header nav ul li a:hover{
+    color: #303030;
+    padding: 2rem 1rem;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+/* NEWS */
+
+#news .newsTitre{
+    color: #F5F2F2;
+    font-size: 1.5rem;
+}
+
+.contenuNews{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.miniVignette{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.vignette{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.v1{
+    background: url(../../src/img/article/The-Last-of-Us-Part.jpg) center center/cover;
+    height: 50vh;
+    flex: 1;
+}
+
+.v2{
+    background: url(../../src/img/article/returnal.jpg) center center/cover;
+    height: 25vh;
+}
+
+.v3{
+    background: url(../../src/img/article/animal-crossing.jpg) center center/cover;
+    height: 25vh;
+}
+
+/* MORENEWS */
+
+.moreNews{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}
+
+.more-news-item{
+    flex: 1 1 30%;
+    padding: 1rem;
+}
+
+/* FOOTER */
+footer{
+    text-align: center;
+    padding: 2rem;
+}
+
+footer img{
+    display: block;
+    margin: 0 auto 1.3rem auto;
+    width: 15%;
+}
+
+
+footer a,
+footer p{
+    text-decoration: none;
+    color: #F5F2F2;
+}
